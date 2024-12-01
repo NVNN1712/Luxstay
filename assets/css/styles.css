@@ -6,6 +6,10 @@ a {
   text-decoration: none;
 }
 
+.aaa {
+  text-decoration: underline;
+}
+
 .header-search,
 .navbar-list,
 .header {
@@ -147,5 +151,115 @@ htnl {
 }
 
 .nwng {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gray;
+}
+
+.home-main {
+}
+
+.main-container .homemain-img {
+  width: 1120px;
+  height: 215px;
+  border-radius: 16px;
+  margin-top: 25px;
+  /* margin-left: 70px; */
+}
+
+.main-container {
+  width: 1110px;
+  max-width: calc(100% - 47px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fisrt-home-main .title {
+  margin-top: 30px;
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.home-main-img-address .title {
+  margin-top: 30px;
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 60px;
+}
+
+.home-main-img-address .sub-title,
+.fisrt-home-main .sub-title {
+  margin: 20px 0;
+}
+
+.img-address-group {
+}
+
+.img-address-group .img-address-item {
+}
+
+.img-address-group .img-address-item .address {
+  position: relative;
+  object-fit: cover;
+  margin: -1px;
+  border-radius: 4px;
+  height: 300px;
+  /* width: calc(100% + 20px) */
+  width: 210px;
+}
+
+/* {
+  width: calc(100% + 2px);
+  margin: -1px;
+  object-fit: cover;
+  border-radius: 12px 12px 0px 0px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  height: 278px;
+} */
+
+.img-address-group .info-img-address {
+  position: absolute;
+  color: white;
+  margin-left: 25px;
+  margin-top: -148px;
+}
+
+.img-address-group .info-img-address .sub-title {
+  font-weight: 700;
+  font-family: "Roboto", serif;
+}
+
+.img-address-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.promotion {
+  margin-top: 30px;
+}
+
+.promotion .info-promotion .title {
+  margin-top: 30px;
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.img-promotion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.promotion-img-item {
+  height: 174px;
+  width: 370px;
+  border-radius: 16px;
+  object-fit: cover;
 }
