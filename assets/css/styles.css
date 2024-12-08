@@ -457,3 +457,95 @@ htnl {
   height: 70px;
   width: 323px;
 }
+
+.footer {
+  margin-top: 20px;
+}
+
+.logo_footer {
+  height: 34px;
+  width: 169px;
+  margin-bottom: 20px;
+}
+
+.Messenger-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.footer-column-row .column-block {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.column-block .info .title {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-family: "Roboto", serif;
+  margin-bottom: 10px;
+}
+.column-block .info a {
+  color: black;
+}
+
+.footer-column-row .item-column li a:hover,
+.column-block .info a:hover {
+  color: blue;
+}
+
+.footer-row {
+  display: flex;
+}
+
+.footer-column-row {
+  padding-right: 30px;
+}
+
+/* .footer-column-row:first-child {
+  padding: 0 0x;
+} */
+.footer-column-row .titleCL {
+  margin-top: 6px;
+  margin-bottom: 33px;
+  font-weight: 600;
+  font-family: "Roboto", serif;
+  font-size: 14px;
+}
+.footer-column-row .item-column li {
+  margin-bottom: 20px;
+}
+.footer-column-row .item-column li a {
+  color: black;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.footer-column-row .qr-mini {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.footer-row-fcr {
+  display: flex;
+}
+
+.footer-row-fcr .app-mini {
+  width: 85px;
+  height: 26px;
+}
+
+.app-mini-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-mini {
+  margin-bottom: 10px;
+  border: 2px solid #222222;
+  border-radius: 4px;
+  cursor: pointer;
+}
