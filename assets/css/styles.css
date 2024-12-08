@@ -391,3 +391,69 @@ htnl {
   width: 360px;
   border-radius: 4px;
 }
+
+.Lux-app {
+  height: 42px;
+  width: 138px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.Lux-QR {
+  height: 180px;
+  width: 180px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.Lux-row .Lux_QC {
+  width: 600px;
+  height: 557px;
+  /* position: absolute; */
+}
+
+.Lux-row {
+  display: flex;
+  position: relative;
+}
+
+.Luxstay-Dow {
+  margin-top: 80px;
+}
+
+.Luxstay-Dow .Lux-row .Lux-left {
+  margin-right: 30px;
+}
+
+.Lux-icon-row {
+  display: flex;
+  margin-top: 60px;
+}
+
+.Lux-icon-row .Lux-app_dow-icon {
+  margin-left: 104px;
+  margin-top: -16px;
+}
+
+.Lux-icon-row .Lux-app_dow-icon .Lux-app {
+  margin-top: 20px;
+}
+
+.Lux-left .title {
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.Lux-left .sub-title {
+  margin-top: 30px;
+  text-align: justify;
+  width: 550px;
+  line-height: 1.4;
+}
+
+.Lux-left .logo-lux_h1 {
+  height: 70px;
+  width: 323px;
+}
